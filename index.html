@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--extracting song info-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/logo.png" >Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>&#169; free songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="0" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="1" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="2" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="3" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="4" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover1.jpg" >
+                    <span class="songName">Song Name</span>
+                    <span class="songlistplay"><span class="timestamp">6.32</span><i id="5" class=" songItemPlay fa-regular fa-1x fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" >
+        <div class="icons">
+            <!--font arswam icons-->
+            <i id="leftSong" class="fa-regular fa-2x fa-circle-left"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i id="rightSong" class="fa-regular fa-2x fa-circle-right"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="img/playing.gif" id="gif"><div id="songInfoName">song 2name mmm</div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/494e4c8171.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
